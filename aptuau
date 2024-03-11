@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo mv aptuau /bin/
+echo "aptuau is in the binary folder."
+sleep 1
+sudo apt update && sudo apt upgrade
+clear
+echo "Aptitude updated and upgraded."
+sleep 1.5
+clear
